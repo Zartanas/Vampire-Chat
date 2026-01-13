@@ -1,0 +1,30 @@
+.chatWindowWrapper{
+  max-width: 980px;
+  width: 100%;
+  height: 720px;
+  background-color: black;
+  border: 1px solid brown;
+
+  .message{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e384a;
+    border-radius: 20px;
+
+    h3{
+      padding-left: 10px;
+      font-size: 20px;
+      font-family: 'Vampiro One';
+      color: red;
+    }
+
+    span{
+      font-size: 18px;
+    }
+
+  }
+}

@@ -1,0 +1,48 @@
+.wrapper{
+  width: 800px;
+  height: 700px;
+  background-color: black;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+
+  span{
+    color: red;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Vampiro One';
+  }
+
+  input{
+    width: 500px;
+    height: 60px;
+    margin: 20px auto;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  button{
+    width: 500px;
+    height: 60px;
+    margin: 20px auto;
+    color: rgb(108, 2, 2);
+    font-family: 'Vampiro One';
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover{
+      color: rgb(241, 19, 19);
+    }
+  }
+
+  img{
+    width: 400px;
+    margin: 20px auto;
+
+  }
+}
