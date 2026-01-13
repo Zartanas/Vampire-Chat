@@ -7,11 +7,11 @@ const MainChatWindow = () => {
     <div className={styles.chatWindowWrapper}>
       <div className={styles.message}>
         <h3>Bloodsucker3000lol:</h3>
-        <span>Всем привет, как дела? </span>
+        <span>Hello everyone, how are you? </span>
       </div>
       <div className={styles.message}>
         <h3>Zombie:</h3>
-        <span>Йо! Давно не виделись! </span>
+        <span>Yo! Long time no see! </span>
       </div>
     </div>
   )
